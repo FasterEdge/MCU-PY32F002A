@@ -1,3 +1,8 @@
+// ─────────────────────────────────────────────────────────────
+// FasterEdge 开源项目
+// Github: https://github.com/FasterEdge
+// Gitee:  https://gitee.com/FasterEdge
+// ─────────────────────────────────────────────────────────────
 // FasterEdge hardware port for Puya PY32F002Ax5 (Cortex-M0+).
 #include "fe_port.h"
 #include "py32f0xx.h"
