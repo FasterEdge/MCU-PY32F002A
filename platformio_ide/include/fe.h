@@ -1,3 +1,4 @@
+// FasterEdge 开源项目 - Github: https://github.com/FasterEdge - Gitee: https://gitee.com/FasterEdge
 // fe.h — FasterEdge MCU 核心框架（PY32F002A (Cortex-M0+) 版）
 // 面向 ARM GCC / ARMClang 的裸机实现：无操作系统、无动态内存。
 // 固定宽度整数确保 Cortex-M0+ 上的协议与加密运算宽度明确。

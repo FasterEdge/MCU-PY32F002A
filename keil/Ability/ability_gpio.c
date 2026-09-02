@@ -1,3 +1,4 @@
+// FasterEdge 开源项目 - Github: https://github.com/FasterEdge - Gitee: https://gitee.com/FasterEdge
 // ability_gpio.c — PY32F002A GpioAbility（MCU 专有）
 // 逻辑引脚映射由 fe_port.c 定义，并受实际封装引脚数量限制。
 //   mode <pin>,<input|output|input_pullup>  设置引脚模式

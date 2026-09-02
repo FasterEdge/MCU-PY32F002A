@@ -1,3 +1,4 @@
+// FasterEdge 开源项目 - Github: https://github.com/FasterEdge - Gitee: https://gitee.com/FasterEdge
 // register.c — 注册全部 Data / Ability 到全局 Atom（PY32F002A 版）
 // 显式静态模块避免动态分配，适合 3 KB SRAM。
 #include "fe.h"

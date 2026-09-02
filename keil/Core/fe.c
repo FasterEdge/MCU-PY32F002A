@@ -1,3 +1,4 @@
+// FasterEdge 开源项目 - Github: https://github.com/FasterEdge - Gitee: https://gitee.com/FasterEdge
 // fe.c — FasterEdge MCU 核心框架实现（PY32F002A / Cortex-M0+）
 // 输出格式化统一通过 fe_snprintf，以保持两个开发平台的边界行为一致。
 #include "fe.h"
