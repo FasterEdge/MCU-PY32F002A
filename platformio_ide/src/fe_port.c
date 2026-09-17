@@ -56,6 +56,8 @@ void fe_port_uart_init(u8 port, u32 baud, fe_port_uart_rx_cb_t cb, void *user) {
     pos = 8u;
     GPIOA->AFR[1] = (GPIOA->AFR[1] & ~(0xFu << pos)) | (1u << pos);
     USART1->CR1 = 0;
+    // 波特率校验: baud=0 会触发除零 → Cortex-M0+ HardFault 死循环; 非法值回退默认 115200。
+    if (baud < 300u || baud > 115200u) baud = 115200u;
     USART1->BRR = (FOSC + baud / 2u) / baud;
     USART1->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_UE;
 }
